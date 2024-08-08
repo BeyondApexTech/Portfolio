@@ -19,15 +19,15 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
+  title: "Beyond Apex Tech",
+  logo_name: "BeyondApexTech",
+  nickname: "FullStack Developers",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  // resumeLink:
+  //   "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+  // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  // githubProfile: "https://github.com/ashutosh1919",
 };
 
 const socialMediaLinks = [
@@ -521,6 +521,39 @@ const certifications = {
   ],
 };
 
+const teamMembers = [
+  {
+    title: "Senior Software Developer",
+    subtitle: "- Developer",
+    exp: "4.5+",
+    logo_path: "Vishal_temp_img.png",
+    certificate_link: "#",
+    alt_name: "Vishal Surgade",
+    name: "Vishal Surgade",
+    color_code: "#4285F499",
+  },
+  {
+    title: "Senior software Developer",
+    subtitle: "- Developer",
+    exp: "2.7+",
+    logo_path: "vikash_img.png",
+    certificate_link: "#",
+    alt_name: "Vikash Pandey",
+    name: "Vikash Pandey",
+    color_code: "#4285F499",
+  },
+  {
+    title: "Software Developer",
+    subtitle: "- Developer",
+    exp: "2",
+    logo_path: "gcp_logo.png",
+    certificate_link: "#",
+    alt_name: "Suraj Das",
+    name: "Suraj Das",
+    color_code: "#4285F499",
+  },
+];
+
 // Experience Page
 const experience = {
   title: "Experience",
@@ -768,4 +801,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  teamMembers,
 };

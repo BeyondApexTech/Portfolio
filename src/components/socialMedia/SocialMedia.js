@@ -25,9 +25,9 @@ export default function socialMedia(props) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconWrapper {...media} {...props}>
+            {/* <IconWrapper {...media} {...props}>
               <i className={`fab ${media.fontAwesomeIcon}`}></i>
-            </IconWrapper>
+            </IconWrapper> */}
             {/* <span></span> */}
           </a>
         );

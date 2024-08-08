@@ -47,19 +47,21 @@ export default function TopButton({ theme }) {
   };
 
   return (
-    <div
-      onClick={GoUpEvent}
-      id="topButton"
-      style={{
-        color: theme.body,
-        backgroundColor: theme.text,
-        border: `solid 1px ${theme.text}`,
-      }}
-      title="Go up"
-      onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
-      onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
-    >
-      <i className="fas fa-arrow-up" id="arrow" aria-hidden="true" />
-    </div>
+    <>
+      <div
+        onClick={GoUpEvent}
+        id="topButton"
+        style={{
+          color: theme.body,
+          backgroundColor: theme.text,
+          border: `solid 1px ${theme.text}`,
+        }}
+        title="Go up"
+        onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
+        onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
+      >
+        <i className="fas fa-arrow-up" id="arrow" aria-hidden="true" />
+      </div>
+    </>
   );
 }

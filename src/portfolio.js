@@ -526,7 +526,7 @@ const teamMembers = [
     title: "Senior Software Developer",
     subtitle: "- Developer",
     exp: "4.5+",
-    logo_path: "Vishal_temp_img.png",
+    logo_path: "saayaHealthLogo.png",
     certificate_link: "#",
     alt_name: "Vishal Surgade",
     name: "Vishal Surgade",

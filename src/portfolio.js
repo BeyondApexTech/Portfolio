@@ -22,22 +22,9 @@ const greeting = {
   nickname: "FullStack Developers",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  // resumeLink:
-  //   "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  // githubProfile: "https://github.com/ashutosh1919",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/ashutosh1919",
@@ -756,7 +743,7 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
+    title: "Contact Us",
     profile_image_path: "Logo.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
@@ -769,12 +756,13 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
+    title: "Contact Details",
+    subtitle:
+      "<b><u>Beyond Apex Tech</u></b> <br/>Pune City, <br/>Maharashtra, India 411027 <br/>Email: beyondapextech@gmail.com<br/><br/> Vishal Surgade (+91) 8007265541, <br/> Vikash Pandey (+91) 6393 489 379, <br/> Suraj Das (+91) 79784 35847",
+    locality: "Pune City",
+    country: "India",
+    region: "Maharashtra",
+    postalCode: "411027",
     streetAddress: "Saratoga Avenue",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",

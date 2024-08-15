@@ -704,7 +704,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "We take pride in delivering high-quality, innovative solutions tailored to meet projects requirement. As a diverse group of freelancers specializing in various IT services, we collaborate to bring unique perspectives and expertise to every project. From web and mobile development to digital transformation and cloud integration, our team's experience spans multiple industries and technologies. Below is a selection of projects we've successfully completed.",
   avatar_image_path: "projects_image.svg",
 };
 

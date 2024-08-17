@@ -773,6 +773,126 @@ const contactPageData = {
   },
 };
 
+const projectDetails = [
+  {
+    id: 1,
+    title: "incidentManagement",
+    name: "Incident Management",
+    startDate: "Nov 2021",
+    endDate: "August 2023",
+    isRunning: false,
+    description:
+      "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ",
+  },
+  {
+    id: 2,
+    title: "outlookExtension",
+    name: "Outlook Extension",
+    startDate: "Nov 2022",
+    endDate: "",
+    isRunning: true,
+    description:
+      "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ",
+  },
+  {
+    id: 3,
+    title: "costingTool",
+    name: "Should Be Costing Tool",
+    startDate: "May 2023",
+    endDate: "",
+    isRunning: true,
+    description:
+      "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ",
+  },
+  {
+    id: 4,
+    title: "travelling",
+    name: "Tour & Travells",
+    startDate: "Feb 2022",
+    endDate: "",
+    isRunning: true,
+    description:
+      "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ",
+  },
+  {
+    id: 5,
+    title: "bpoTrainer",
+    name: "BPO Training Platform",
+    startDate: "Feb 2022",
+    endDate: "",
+    isRunning: true,
+    description:
+      "Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test ",
+  },
+];
+
+const services = [
+  // header = "",
+  {
+    id: 1,
+    title: "webDeveloper",
+    name: "Web Development",
+    description:
+      "Our team specializes in creating high-performance, visually stunning websites that are optimized for user experience and SEO. We build custom websites and web applications using the latest technologies like React, Angular, Node.js, and more. Whether it's a simple landing page or a complex web application, we ensure scalability, security, and responsiveness across all devices.",
+    imgPath: "gcp_logo.png",
+    seoName: "Web Development",
+  },
+  {
+    id: 2,
+    title: "androidDevelopment",
+    name: "Android Development",
+    description:
+      "We offer end-to-end Android app development services, from concept to deployment. Our team excels in creating user-friendly and highly functional Android applications using Kotlin and Java. We focus on delivering apps that meet business objectives while providing a seamless experience for users across all Android devices.",
+    imgPath: "gcp_logo.png",
+    seoName: "Android Development",
+  },
+  // {
+  //   id: 3,
+  //   title: "gameDevelopment",
+  //   name: "Game Development",
+  //   description: "Our game development services cover a wide range of genres and platforms, including mobile, PC, and console games. We use cutting-edge tools like Unity and Unreal Engine to create immersive gaming experiences. Whether you need a casual mobile game or a complex 3D environment, we bring your game ideas to life with rich graphics and engaging gameplay.",
+  //   imgPath: "gcp_logo.png",
+  //   seoName: "Game Development"
+
+  // },
+  {
+    id: 4,
+    title: "cloudservices",
+    name: "Cloud Services",
+    description:
+      "We provide comprehensive cloud solutions that help businesses leverage the power of cloud computing. From cloud infrastructure setup and management to cloud-native application development and migration, our services include AWS, Azure, Google Cloud, and other leading cloud platforms. We ensure your cloud environment is secure, scalable, and cost-efficient.",
+    imgPath: "gcp_logo.png",
+    seoName: "Cloud Services",
+  },
+  {
+    id: 5,
+    title: "businessSolutions",
+    name: "Business Solutions",
+    description:
+      "Our business solutions are tailored to meet the unique needs of your company. We offer custom software development, CRM systems, ERP solutions, and more. Our goal is to streamline your business processes, improve efficiency, and drive growth by integrating the right technology solutions.",
+    imgPath: "gcp_logo.png",
+    seoName: "Business Solutions",
+  },
+  {
+    id: 6,
+    title: "qa",
+    name: "QA & Testing (Manual / Automation)",
+    description:
+      "Quality assurance is critical to the success of any software project. We offer both manual and automated testing services to ensure your applications are bug-free and perform optimally under various conditions. Our testing team is proficient in the latest testing tools and methodologies, ensuring your software meets the highest quality standards.",
+    imgPath: "gcp_logo.png",
+    seoName: "QA & Testing (Manual / Automation)",
+  },
+  {
+    id: 7,
+    title: "excelApplication",
+    name: "Excel Based Applications",
+    description:
+      "We create powerful Excel-based applications that automate complex business processes and improve data management. Whether you need custom dashboards, data analysis tools, or automated reporting systems, our Excel applications are designed to be user-friendly and highly efficient, saving you time and reducing errors.",
+    imgPath: "gcp_logo.png",
+    seoName: "Excel Based Applications",
+  },
+];
+
 export {
   settings,
   seo,
@@ -788,4 +908,6 @@ export {
   publications,
   contactPageData,
   teamMembers,
+  projectDetails,
+  services,
 };

@@ -16,7 +16,7 @@ class Contact extends Component {
     const theme = this.props.theme;
     return (
       <div className="contact-main">
-        <Header theme={theme} />
+        {/* <Header theme={theme} /> */}
         <div className="basic-contact mt-5 p-5">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">

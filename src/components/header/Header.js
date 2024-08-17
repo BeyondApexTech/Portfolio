@@ -56,6 +56,18 @@ class Header extends Component {
                   Home
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/whatwedo"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text, borderRadius: "50%" }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  What We Do
+                </NavLink>
+              </li>
               {/* <li>
                 <NavLink
                   to="/education"
@@ -70,14 +82,14 @@ class Header extends Component {
               </li> */}
               <li>
                 <NavLink
-                  to="/team"
+                  to="/aboutus"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text, borderRadius: "50%" }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Team Mambers
+                  About US
                 </NavLink>
               </li>
               {/* <li>

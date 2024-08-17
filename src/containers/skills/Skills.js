@@ -14,7 +14,7 @@ export default function Skills(props) {
           </h1>
         </Fade>
       </div>
-      <SkillSection theme={theme} />
+      {/* <SkillSection theme={theme} /> */}
     </div>
   );
 }

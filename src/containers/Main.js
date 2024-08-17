@@ -10,11 +10,17 @@ import Projects from "../pages/projects/Projects";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 import Team from "../pages/team/teams.js";
+import WhatWeDo from "../pages/whatWeDo/whatWeDo.js";
+import Header from "../components/header/Header.js";
 
 export default class Main extends Component {
   render() {
+    const theme = this.props.theme;
+    debugger;
     return (
       <BrowserRouter basename="/">
+        <Header theme={this.props.theme} />
+
         <Switch>
           <Route
             path="/"
@@ -68,8 +74,12 @@ export default class Main extends Component {
           />
 
           <Route
-            path="/team"
+            path="/aboutus"
             render={(props) => <Team {...props} theme={this.props.theme} />}
+          />
+          <Route
+            path="/whatwedo"
+            render={(props) => <WhatWeDo {...props} theme={this.props.theme} />}
           />
           <Route
             path="*"

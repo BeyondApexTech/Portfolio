@@ -5,47 +5,44 @@ import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
+import PieMeet from '../images/image.png';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
-		img: WebImage2,
-		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
-		},
+		title: 'Pie Meet',
+		category: 'Mobile Application',
+		description: 'PieMeet is a secure and HD video conferencing app without Ads',
+		img: PieMeet,
+		link: 'https://apkpure.net/pie-meet-video-calling-app/com.purpledroppie.piemeet'
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
+		title: 'WhatsApp status saver',
 		category: 'Mobile Application',
+		description: 'WhatsApp status saver is a free app which helps user to save all the photos and videos of whatsapp status.',
 		img: MobileImage2,
+		link: 'https://play.google.com/store/apps/details?id=com.purpledroppie.status'
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
+		title: 'Pack and Go',
 		category: 'UI/UX Design',
+		description: 'Pack and Go is platform where users can book travels for their journey. And agencies can register their travels.',
 		img: UIImage1,
 	},
 	{
 		id: 4,
-		title: 'Cloud Storage Platform',
+		title: 'Platform for learning from disasters',
+		description: 'A platform which collects the data from past disasters and predicts upcoming disasters, And used to spread awareness.',
 		category: 'UI/UX Design',
 		img: UIImage2,
 	},
 	{
 		id: 5,
-		title: 'React Social App',
+		title: 'Pay and Park',
 		category: 'Mobile Application',
+		description: 'A platform to automate the process of pay and pack services with online payment.',
 		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
 	},
 ];

@@ -22,7 +22,7 @@ const ProjectsGrid = () => {
 					Projects portfolio
 				</p>
 			</div>
-
+{/* 
 			<div className="mt-10 sm:mt-16">
 				<h3
 					className="font-general-regular 
@@ -91,7 +91,7 @@ const ProjectsGrid = () => {
 
 					<ProjectsFilter setSelectProject={setSelectProject} />
 				</div>
-			</div>
+			</div> */}
 
 			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
 				{selectProject
@@ -101,6 +101,8 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								description={project.description}
+								link={project.link}
 							/>
 					  ))
 					: searchProject
@@ -110,6 +112,8 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								description={project.description}
+								link={project.link}
 							/>
 					  ))
 					: projects.map((project) => (
@@ -118,6 +122,8 @@ const ProjectsGrid = () => {
 								category={project.category}
 								image={project.img}
 								key={project.id}
+								description={project.description}
+								link={project.link}
 							/>
 					  ))}
 			</div>

@@ -2,17 +2,27 @@ import { motion } from 'framer-motion';
 import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
 import { services } from '../portfolioDetails/portfolio';
-
-// const selectOptions = [
-// 	'Web Application',
-// 	'Mobile Application',
-// 	'UI/UX Design',
-// 	'Branding',
-// ];
+import { sendEmail } from '../services/UtilityService';
 
 const selectOptions = services
 
 const HireMeModal = ({ onClose, onRequest }) => {
+
+	const sendMail = (e) => {
+		e.preventDefault()
+		const name = e.target['name'].value
+		const email = e.target['email'].value
+		const subject = e.target['subject'].value
+		const message = e.target['message'].value
+		sendEmail(name, email, subject, message).then(() => {
+			e.target['name'].value = ''
+			e.target['email'].value = ''
+			e.target['subject'].value = ''
+			e.target['message'].value = ''
+			onClose()
+		})
+	}
+	
 	return (
 		<motion.div
 			initial={{ opacity: 0 }}
@@ -40,9 +50,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 						</div>
 						<div className="modal-body p-5 w-full h-full">
 							<form
-								onSubmit={(e) => {
-									e.preventDefault();
-								}}
+								onSubmit={(e) => sendMail(e)}
 								className="max-w-xl m-4 text-left"
 							>
 								<div className="">
@@ -101,7 +109,6 @@ const HireMeModal = ({ onClose, onRequest }) => {
 
 								<div className="mt-6 pb-4 sm:pb-1">
 									<span
-										onClick={onClose}
 										type="submit"
 										className="px-4
 											sm:px-6

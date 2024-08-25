@@ -1,14 +1,27 @@
+import { sendEmail } from '../../services/UtilityService';
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
 
 const ContactForm = () => {
+	const sendMail = (e) => {
+		e.preventDefault()
+		const name = e.target['name'].value
+		const email = e.target['email'].value
+		const subject = e.target['subject'].value
+		const message = e.target['message'].value
+		sendEmail(name, email, subject, message).then(() => {
+			e.target['name'].value = ''
+			e.target['email'].value = ''
+			e.target['subject'].value = ''
+			e.target['message'].value = ''
+		})
+	}
+
 	return (
 		<div className="w-full lg:w-1/2">
 			<div className="leading-loose">
 				<form
-					onSubmit={(e) => {
-						e.preventDefault();
-					}}
+					onSubmit={(e) => sendMail(e)}
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
 					<p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">

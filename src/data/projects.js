@@ -3,9 +3,7 @@ import WebImage1 from '../images/web-project-1.jpg';
 import WebImage2 from '../images/web-project-2.jpg';
 import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
-import PieMeet from '../images/image.png';
 
 export const projectsData = [
 	{
@@ -13,7 +11,7 @@ export const projectsData = [
 		title: 'Pie Meet',
 		category: 'Mobile Application',
 		description: 'PieMeet is a secure and HD video conferencing app without Ads',
-		img: PieMeet,
+		img: MobileImage1,
 		link: 'https://apkpure.net/pie-meet-video-calling-app/com.purpledroppie.piemeet'
 	},
 	{
@@ -29,7 +27,7 @@ export const projectsData = [
 		title: 'Pack and Go',
 		category: 'UI/UX Design',
 		description: 'Pack and Go is platform where users can book travels for their journey. And agencies can register their travels.',
-		img: UIImage1,
+		img: WebImage2,
 	},
 	{
 		id: 4,
@@ -43,6 +41,6 @@ export const projectsData = [
 		title: 'Pay and Park',
 		category: 'Mobile Application',
 		description: 'A platform to automate the process of pay and pack services with online payment.',
-		img: MobileImage1,
+		img: WebImage1,
 	},
 ];

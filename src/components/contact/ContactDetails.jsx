@@ -1,11 +1,11 @@
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 
 const contacts = [
-	{
-		id: 1,
-		name: 'Your Address, Your City, Your Country',
-		icon: <FiMapPin />,
-	},
+	// {
+	// 	id: 1,
+	// 	name: 'Your Address, Your City, Your Country',
+	// 	icon: <FiMapPin />,
+	// },
 	{
 		id: 2,
 		name: 'BeyondApexTech@gmail.com ',
@@ -13,12 +13,17 @@ const contacts = [
 	},
 	{
 		id: 4,
-		name: '+91 8007265541',
+		name: '+91 8007265541  (Vishal Surgade)',
 		icon: <FiPhone />,
 	},
 	{
 		id: 5,
-		name: '+91 6393489379',
+		name: '+91 6393489379  (Vikash Pandey)',
+		icon: <FiPhone />,
+	},
+	{
+		id: 6,
+		name: '+91 79784 35847  (Suraj Das)',
 		icon: <FiPhone />,
 	},
 ];

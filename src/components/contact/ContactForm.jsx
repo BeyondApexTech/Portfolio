@@ -1,14 +1,16 @@
 import Button from '../reusable/Button';
 import FormInput from '../reusable/FormInput';
-
 const ContactForm = () => {
+
+	const sendMail = () => {
+
+	}
+	
 	return (
 		<div className="w-full lg:w-1/2">
 			<div className="leading-loose">
 				<form
-					onSubmit={(e) => {
-						e.preventDefault();
-					}}
+					onSubmit={(e) => sendMail()}
 					className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left"
 				>
 					<p className="font-general-medium text-primary-dark dark:text-primary-light text-2xl mb-8">

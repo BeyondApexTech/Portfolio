@@ -8,12 +8,17 @@ const contacts = [
 	},
 	{
 		id: 2,
-		name: 'email@domain.com',
+		name: 'BeyondApexTech@gmail.com ',
 		icon: <FiMail />,
 	},
 	{
-		id: 3,
-		name: '555 8888 888',
+		id: 4,
+		name: '+91 8007265541',
+		icon: <FiPhone />,
+	},
+	{
+		id: 5,
+		name: '+91 6393489379',
 		icon: <FiPhone />,
 	},
 ];

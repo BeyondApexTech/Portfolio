@@ -1,13 +1,16 @@
 import { motion } from 'framer-motion';
 import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
+import { services } from '../portfolioDetails/portfolio';
 
-const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
-];
+// const selectOptions = [
+// 	'Web Application',
+// 	'Mobile Application',
+// 	'UI/UX Design',
+// 	'Branding',
+// ];
+
+const selectOptions = services
 
 const HireMeModal = ({ onClose, onRequest }) => {
 	return (
@@ -76,9 +79,9 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										{selectOptions.map((option) => (
 											<option
 												className="text-normal sm:text-md"
-												key={option}
+												key={option.title}
 											>
-												{option}
+												{option.name}
 											</option>
 										))}
 									</select>

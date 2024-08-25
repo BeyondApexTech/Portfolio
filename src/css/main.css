@@ -588,6 +588,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-full {
   height: 100%;
 }
+.h-2-4 {
+  height: 260px;
+}
 .h-5 {
   height: 1.25rem;
 }
@@ -605,6 +608,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-96 {
   width: 24rem;
+}
+.w-98 {
+  width: 30rem
 }
 .w-40 {
   width: 10rem;
@@ -641,6 +647,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex-row {
   flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .flex-col {
   flex-direction: column;
@@ -764,6 +773,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 .fill-current {
   fill: currentColor;
 }
+.p-5px {
+  padding: 15px;
+}
+
+.m-5px {
+  margin: 15px;
+}
+
+
 .p-5 {
   padding: 1.25rem;
 }

@@ -3,6 +3,7 @@ import { FiArrowDownCircle } from 'react-icons/fi';
 import developerLight from '../../images/developer.svg';
 import developerDark from '../../images/developer-dark.svg';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const AppBanner = () => {
 	const [activeTheme] = useThemeSwitcher();
@@ -25,7 +26,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light"
 				>
-					Hi There, <br/> 
+					Hi There, <br />
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -49,17 +50,12 @@ const AppBanner = () => {
 					}}
 					className="flex justify-center sm:block"
 				>
-					<a
-						// download="Stoman-Resume.pdf"
-						href="/#/services"
+					<Link
+						to="/services"
 						className="font-general-medium flex justify-center items-center w-50 sm:w-60 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-						aria-label="Download Resume"
 					>
-						{/* <FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle> */}
-						<span className="text-sm sm:text-lg font-general-medium duration-100">
-							Checkout what we are good at
-						</span>
-					</a>
+						Checkout what we are good at
+					</Link>
 				</motion.div>
 			</div>
 			<motion.div

@@ -24,15 +24,15 @@ export const sendEmail = (name, email, subject, message) => {
         )
             .then((response) => {
                 if (response.status === 200) {
-                    alert("Your request submitted successfully!")
+                    alert("Thank you! We have received your request successfully. We will reach out to you as soon as possible.")
                     resolve()
                 } else {
-                    alert("Failed to submit your request.")
+                    alert("Failed to submit your request, Please try again.")
                     reject()
                 }
             })
             .catch((error) => {
-                alert("Failed to submit your request.")
+                alert("Failed to submit your request, Please try again.")
                 reject()
             });
     })

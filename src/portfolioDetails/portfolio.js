@@ -4,15 +4,17 @@ import cloud from '../images/cloud-services-svgrepo-com.svg'
 import excel from '../images/excel-file-svgrepo-com.svg'
 import testing from '../images/codescan-svgrepo-com.svg'
 import req from '../images/business-solution-key-to-business-svgrepo-com.svg'
+import vishalImg from '../images/vvv.jpg';
+
 const teamDetails = [
     {
         id:1,
         name:"Vishal Surgade",
         title:"vishalSurgade",
-        designation:"Technical Lead",
-        description : "",
-        experience : "4+"
-
+        designation:"Full Stack Developer/Engineer",
+        description : "Full Stack Developer with expertise in Angular, React, Python Flask, and Java Spring Boot, I specialize in transforming complex requirements into robust technical solutions. I have successfully led projects in various domains, including costing tools, ERM systems, and travel booking platforms, focusing on enhancing performance and user experience. Skilled in both frontend and backend development, I am passionate about improving team skills, streamlining operations, and leveraging cloud technologies like AWS to deliver impactful results.",
+        experience : "4+",
+        img: vishalImg
     },
     {
         id:2,

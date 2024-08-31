@@ -2,9 +2,35 @@
  * React & TailwindCSS Portfolio Main CSS File
  * Powered by: @realstoman
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 body {
 	font-family: 'GeneralSans-Variable';
+}
+
+.title-font { 
+    font-family: "Sevillana", cursive;
+    font-size: 35px;
+}
+
+/* For tablets and small desktops */
+@media (max-width: 1024px) {
+    .title-font {
+        font-size: 24px; /* Adjust as needed */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+    .title-font {
+        font-size: 20px; /* Adjust as needed */
+    }
+}
+
+/* For small mobile devices */
+@media (max-width: 480px) {
+    .title-font {
+        font-size: 18px; /* Adjust as needed */
+    }
 }
 
 /* Fonts */

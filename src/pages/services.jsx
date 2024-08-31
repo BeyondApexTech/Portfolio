@@ -29,7 +29,6 @@ const Services = (() => {
       })}
 
     </div>
-    <div className="h-2-4 bg-gray-50"></div>
   </>
 })
 

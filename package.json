@@ -1,6 +1,7 @@
 {
 	"name": "beyond-apex-tech",
 	"version": "0.1.0",
+	"homepage": ".",
 	"private": true,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
@@ -26,7 +27,7 @@
 		"eject": "react-scripts eject",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css",
 		"predeploy": "yarn build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -b gh-pages -d build"
 	},
 	"eslintConfig": {
 		"extends": [

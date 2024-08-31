@@ -5,6 +5,7 @@ import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/mobile-project-2.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
 
+
 export const projectsData = [
 	{
 		id: 1,
@@ -43,4 +44,58 @@ export const projectsData = [
 		description: 'A platform to automate the process of pay and pack services with online payment.',
 		img: WebImage1,
 	},
+];
+
+export const companyProjectsData = [
+	{
+		id: 1,
+		title: 'Fleet Service',
+		category: 'Web Application',
+		description: 'Fleet Service decription',
+		img: WebImage2,
+		// link: 'https://apkpure.net/pie-meet-video-calling-app/com.purpledroppie.piemeet'
+	},
+	{
+		id: 2,
+		title: 'Safety and Compliance Software',
+		category: 'Web Application',
+		description: 'Safety and Compliance Software description',
+		img: WebImage2,
+		// link: 'https://play.google.com/store/apps/details?id=com.purpledroppie.status'
+	},
+	{
+		id: 3,
+		title: 'Outlook Extension',
+		category: 'Web Application',
+		description: 'Outlook Extension description',
+		img: WebImage2,
+	},
+	{
+		id: 4,
+		title: 'Should be costing tool',
+		description: 'SBC Description.',
+		category: 'Web Application',
+		img: WebImage2,
+	},
+	{
+		id: 5,
+		title: 'Travelling',
+		category: 'Web Application',
+		description: 'Travelling description.',
+		img: WebImage2,
+	},
+	{
+		id: 6,
+		title: 'Elevia CRM',
+		category: 'Web Application',
+		description: 'CRM description.',
+		img: WebImage2,
+	},
+	{
+		id: 7,
+		title: 'BPO Training Application',
+		category: 'Web Application',
+		description: 'BPO Training Application description.',
+		img: WebImage2,
+	}
 ];

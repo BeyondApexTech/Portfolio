@@ -140,9 +140,9 @@ const AppHeader = () => {
 						<span
 							onClick={showHireMeModal}
 							className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
-							aria-label="Contact Us Button"
+							aria-label="Hire Me Button"
 						>
-							<Button title="Contact Us" />
+							<Button title="Hire Me" />
 						</span>
 					</div>
 				</div>
@@ -187,9 +187,9 @@ const AppHeader = () => {
 						<span
 							onClick={showHireMeModal}
 							className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
-							aria-label="Contact Us Button"
+							aria-label="Hire Me Button"
 						>
-							<Button title="Contact Us" />
+							<Button title="Hire Me" />
 						</span>
 					</div>
 
@@ -207,7 +207,7 @@ const AppHeader = () => {
 					</div>
 				</div>
 			</div>
-			{/* Contact Us modal */}
+			{/* Hire me modal */}
 			<div>
 				{showModal ? (
 					<HireMeModal

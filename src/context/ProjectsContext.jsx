@@ -1,5 +1,5 @@
 import { useState, createContext } from 'react';
-import { projectsData } from '../data/projects';
+import { companyProjectsData, projectsData } from '../data/projects';
 
 // Create projects context
 export const ProjectsContext = createContext();
@@ -9,7 +9,7 @@ export const ProjectsProvider = (props) => {
 	const [projects, setProjects] = useState(projectsData);
 	const [searchProject, setSearchProject] = useState('');
 	const [selectProject, setSelectProject] = useState('');
-
+	const [companyProjects, setCompanyProjects] = useState(companyProjectsData)
 	// Search projects by project title
 	const searchProjectsByTitle = projects.filter((item) => {
 		const result = item.title
@@ -40,6 +40,7 @@ export const ProjectsProvider = (props) => {
 				selectProject,
 				setSelectProject,
 				selectProjectsByCategory,
+				companyProjects,
 			}}
 		>
 			{props.children}

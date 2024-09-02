@@ -21,11 +21,11 @@ const contacts = [
 		name: '+91 6393489379  (Vikash Pandey)',
 		icon: <FiPhone />,
 	},
-	{
-		id: 6,
-		name: '+91 79784 35847  (Suraj Das)',
-		icon: <FiPhone />,
-	},
+	// {
+	// 	id: 6,
+	// 	name: '+91 79784 35847  (Suraj Das)',
+	// 	icon: <FiPhone />,
+	// },
 ];
 
 const ContactDetails = () => {

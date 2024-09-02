@@ -6,6 +6,7 @@ import testing from '../images/codescan-svgrepo-com.svg'
 import req from '../images/business-solution-key-to-business-svgrepo-com.svg'
 import vishalImg from '../images/vvv.jpg';
 import vikashImg from '../images/prof_vikash.jpg'
+import surajImg from '../images/suraj.jpg'
 
 const teamDetails = [
     {
@@ -23,7 +24,7 @@ const teamDetails = [
         title:"vikashPandey",
         designation:"Senior Software Developer",
         description : "I'm Full Stack Developer with 2.7+ year of experience and expertise in React, Python Flask, and Node js, I specialize in transforming complex requirements into robust technical solutions. I have successfully led projects in various domains, including costing tools, ERM systems, and travel booking platforms, focusing on enhancing performance and user experience. Skilled in both frontend and backend development.",
-        experience : "3+",
+        experience : "3",
         img: vikashImg
 
     },
@@ -33,7 +34,8 @@ const teamDetails = [
         title:"surajDas",
         designation:"Software Developer",
         description : "",
-        experience : "2+"
+        experience : "2",
+        img:surajImg
 
     }
 ]
